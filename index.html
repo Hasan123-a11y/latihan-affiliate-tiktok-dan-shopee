@@ -169,12 +169,13 @@ html,body{overflow-x:hidden}body{-webkit-tap-highlight-color:transparent}
 .bi{flex:1;min-width:0;padding:4px 0;font-size:.62rem}.bi .i{width:21px;height:21px}
 .sec{margin-top:28px}.m{grid-template-columns:repeat(2,1fr)}.score{font-size:2.5rem}.sp .s{font-size:.68rem}
 }
+.br2{display:flex;align-items:center;gap:6px;margin-top:8px;font:500 .76rem 'Poppins',sans-serif;color:var(--mu);background:var(--soft);border-radius:10px;padding:6px 10px;width:fit-content;max-width:100%}.br2 .i{width:14px;height:14px;color:var(--ac)}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rise,.fb,.hw div{opacity:1}}
 </style>
 </head>
 <body>
 <div class="bg" aria-hidden="true"><i></i><i></i><i></i></div>
-<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v4"/></symbol><symbol id="i-layout" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 9h18M9 21V9"/></symbol><symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol><symbol id="i-history" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol><symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></symbol><symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol><symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol><symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></symbol><symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/></symbol><symbol id="i-cup" viewBox="0 0 24 24"><path d="M7 3h10l-1 18H8zM7 8h10"/></symbol><symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l1 13H4zM9 8V6a3 3 0 0 1 6 0v2"/></symbol><symbol id="i-shirt" viewBox="0 0 24 24"><path d="M8 3l-5 4 3 3 2-1v12h8V9l2 1 3-3-5-4a4 4 0 0 1-8 0z"/></symbol><symbol id="i-plug" viewBox="0 0 24 24"><path d="M9 2v6M15 2v6M6 8h12v3a6 6 0 0 1-12 0zM12 17v5"/></symbol><symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol><symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol><symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></symbol><symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></symbol></svg>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v4"/></symbol><symbol id="i-layout" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 9h18M9 21V9"/></symbol><symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol><symbol id="i-history" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol><symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></symbol><symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol><symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol><symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></symbol><symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/></symbol><symbol id="i-cup" viewBox="0 0 24 24"><path d="M7 3h10l-1 18H8zM7 8h10"/></symbol><symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l1 13H4zM9 8V6a3 3 0 0 1 6 0v2"/></symbol><symbol id="i-shirt" viewBox="0 0 24 24"><path d="M8 3l-5 4 3 3 2-1v12h8V9l2 1 3-3-5-4a4 4 0 0 1-8 0z"/></symbol><symbol id="i-plug" viewBox="0 0 24 24"><path d="M9 2v6M15 2v6M6 8h12v3a6 6 0 0 1-12 0zM12 17v5"/></symbol><symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol><symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></symbol><symbol id="i-video" viewBox="0 0 24 24"><rect x="2" y="6" width="14" height="12" rx="3"/><path d="M16 10l6-3v10l-6-3z"/></symbol><symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></symbol><symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></symbol></svg>
 <div class="w">
 <header class="hd"><div class="br" data-v="home"><span class="lg"><svg class="i"><use href="#i-mic"/></svg></span>Latihan Affiliate</div><nav id="nv"></nav><button class="tt" id="tt" aria-label="Ganti tema terang atau gelap"></button></header>
 
@@ -215,7 +216,7 @@ html,body{overflow-x:hidden}body{-webkit-tap-highlight-color:transparent}
 <label class="mu" for="prod">Nama produk</label><input id="prod" value="serum wajah"></div>
 <div class="nx"><span></span><button class="btn p" id="n0">Lanjut <svg class="i"><use href="#i-arrow"/></svg></button></div></div>
 
-<div class="pane"><div class="c"><h2 id="gt"></h2><p class="mu" style="margin:0 0 6px">Baca dulu, lalu ucapkan dengan gayamu sendiri.</p>
+<div class="pane"><div class="c"><h2 id="gt"></h2><p class="mu" style="margin:0 0 6px">Naskah ini kerangka sekitar 1 menit lebih. Ubah ke gaya ngobrolmu: pakai kata seperti “nih”, “losh”, “deh”, tambahkan ceritamu sendiri, dan jangan dibaca kaku. Kotak B-roll menunjukkan visual yang bisa ditampilkan sambil kamu bicara.</p>
 <div id="guide"></div><p id="ghid" class="mu hide">Mode tantangan aktif. Naskah disembunyikan, ingat urutan hook, isi, dan CTA.</p>
 <label class="row mu" style="margin-top:10px"><input type="checkbox" id="hideG"> Sembunyikan naskah (mode tantangan)</label></div>
 <div class="nx"><button class="btn" id="b1"><svg class="i"><use href="#i-back"/></svg> Kembali</button><button class="btn p" id="n1">Lanjut rekam <svg class="i"><use href="#i-arrow"/></svg></button></div></div>
@@ -245,7 +246,7 @@ html,body{overflow-x:hidden}body{-webkit-tap-highlight-color:transparent}
 <div class="sr"><div><b>Template</b><p>14 naskah untuk rumahan, tumbler, tas, fashion, dan aksesoris gadget. Filter produk membantu memilih yang sesuai.</p></div></div>
 <div class="sr"><div><b>Teknik &amp; Tren</b><p>Contoh hook dan CTA siap pakai, tips tempo bicara, dan format VT yang sedang ramai.</p></div></div>
 <div class="sr"><div><b>Mode tantangan</b><p>Menyembunyikan naskah supaya kamu melatih bicara spontan, seperti saat live.</p></div></div>
-<div class="sr"><div><b>Timer target</b><p>Pilih 15 sampai 60 detik. Rekaman berhenti otomatis saat waktu habis, dan hasilnya menilai ketepatan durasi.</p></div></div>
+<div class="sr"><div><b>Timer target</b><p>Pilih 30 detik sampai 2 menit (bawaan 1 menit). Rekaman berhenti otomatis saat waktu habis, dan hasilnya menilai ketepatan durasi.</p></div></div>
 <div class="sr"><div><b>Transkrip otomatis</b><p>Suaramu diubah jadi teks berbahasa Indonesia. Kalau mic bermasalah, kamu bisa mengetik atau menempel teks sendiri.</p></div></div>
 <div class="sr"><div><b>Putar ulang rekaman</b><p>Dengarkan suaramu sendiri untuk menilai nada dan jeda. Yang tersimpan hanya sesi rekam terakhir.</p></div></div>
 <div class="sr"><div><b>Riwayat</b><p>Menyimpan 30 latihan terakhir (skor, tempo, filler) di browser ini saja.</p></div></div></div>
@@ -385,7 +386,7 @@ var TK=[
 ['CTA risiko rendah','“Bisa retur kalau nggak cocok, jadi coba aja dulu.”'],
 ['CTA bio','“Link produknya ada di bio, tinggal klik.”']]],
 ['Tren VT 2026 (TikTok & Shopee Video)',[
-['Durasi 15–30 detik','Singkat, padat, to the point. Satu produk, satu pesan, satu CTA.'],
+['Durasi 45–90 detik','Dengan B-roll, 1 menit lebih terasa wajar. Satu produk, satu pesan utama, satu CTA.'],['B-roll','Ganti visual tiap 2–4 detik: close-up, detail, tes, dan pemakaian nyata. Suara terus mengalir selama B-roll tampil.'],['Bicara natural','Bayangkan ngobrol ke satu teman. Boleh pakai “nih”, “losh”, “deh” dan jeda, tapi jangan membaca seperti pidato.'],
 ['Hook 1–3 detik','Penonton memutuskan scroll atau tonton dalam hitungan detik, jadi jangan basa-basi.'],
 ['Faceless / POV','Konten tanpa wajah (tangan, close-up produk, voice over) sedang besar dan tetap bisa FYP.'],
 ['Racun & haul','Format “racunin” dan haul belanjaan masih ampuh memancing beli impulsif.'],
@@ -409,7 +410,38 @@ var TK=[
 ['Hindari filler','Kurangi “eee, emm, anu, kayak, gitu”. Ganti dengan jeda.']]]
 ];
 
-var nic='all',cur='pas',rec=null,on=false,fin='',t0=0,tint=null,secs=0,V='home',tgt=0,step=0,tg=0,td=null;
+
+var BR={'Hook':'Visual paling menarik di 3 detik pertama: produk dipakai atau ditunjukkan, zoom cepat','Masalah':'Adegan yang memperlihatkan masalahnya secara nyata','Solusi':'Produk muncul, buka kemasan, tunjukkan dari 2 sudut','Bukti':'Close-up hasil pemakaian atau screenshot ulasan','Kelebihan':'Tunjukkan tiap kelebihan sambil menyebutnya, tambah teks di layar','Kekurangan':'Perlihatkan bagian yang kurang sempurna dengan jujur','Kesimpulan':'Pegang produk di depan kamera sambil mengangguk yakin','Tampilkan':'Proses buka kemasan, keluarkan isi box satu per satu','Demo':'Rekam proses pemakaian dari awal sampai selesai','Hasil':'Close-up hasil akhir, gerakkan kamera pelan','Sebelum':'Kondisi sebelum, ambil dari sudut yang sama dengan sesudah','Proses':'Cuplikan pemakaian harian atau timelapse','Sesudah':'Kondisi sesudah, sudut kamera sama dengan sebelum','Penawaran':'Layar harga coret dan harga diskon','Urgensi':'Layar stok tersisa atau hitung mundur promo','Jaminan':'Layar garansi, retur, atau label original','Produk':'Produk diputar pelan 360 derajat','Pengakuan':'Wajah atau tanganmu sambil tersenyum jujur','Fungsi':'Tunjukkan fungsi utama dipakai langsung','Harga':'Layar harga di aplikasi','Tes':'Rekam tes dari awal sampai hasil terlihat jelas','Tes bocor':'Balik tumbler dengan tutup rapat di atas tisu','Tes dingin':'Close-up es batu masih utuh dan embun di luar tumbler','Gaya':'Dipakai di beberapa situasi: kerja, kuliah, nongkrong','Isi':'Masukkan barang satu per satu ke dalam tas','Fitting':'Putar badan pelan di depan kamera','Bahan':'Close-up tekstur, tarik kain pelan','Styling':'Padukan dengan dua outfit berbeda','Outfit 1':'Jump cut ke outfit pertama','Outfit 2':'Jump cut ke outfit kedua','Outfit 3':'Jump cut ke outfit ketiga','Spek':'Close-up spesifikasi pada produk','Aman':'Close-up label proteksi atau garansi','Solusi ':'','CTA':'Layar halaman produk, tunjuk keranjang kuning dan tombol checkout'};
+var EXT={
+all:[['Cerita','Jujur ya, awalnya aku sempat ragu sama {p} ini. Soalnya udah sering banget kejadian beli barang yang katanya bagus, ternyata zonk. Tapi pas aku coba sendiri beberapa hari, pendapatku langsung berubah.','Cuplikan kamu menerima paket dan membuka box dengan ekspresi penasaran'],
+['Detail','Nah, ini yang bikin aku suka. Kualitasnya kerasa banget pas dipegang, dan nggak kelihatan murahan. Coba lihat detailnya dari dekat, rapi dan finishing-nya halus.','Close-up bahan, jahitan atau tekstur, gerakkan kamera pelan'],
+['Bukti sosial','Dan bukan cuma aku yang bilang gini loh. Di kolom ulasan, banyak banget yang puas dan ratingnya tinggi. Biasanya kalau sebanyak ini, berarti emang udah terbukti.','Screenshot ulasan dan rating produk, scroll pelan'],
+['Bonus','Apalagi sekarang lagi ada voucher dan gratis ongkir. Jadi harganya jauh lebih ringan, cocok buat kamu yang mau coba tanpa takut rugi.','Layar halaman produk: voucher, diskon, dan gratis ongkir']],
+rumah:[['Cerita','Dulu rumahku tuh sering banget berantakan. Tiap mau masak atau beres-beres, ujung-ujungnya capek duluan karena nyari barang. Sampai akhirnya aku nemu {p} ini.','Sudut rumah berantakan (sebelum), lalu rapi (sesudah)'],
+['Detail','Bahannya kokoh, nggak gampang goyang, dan ukurannya pas buat dapur atau kamar yang sempit. Pemasangannya juga gampang banget, nggak perlu alat macam-macam.','Close-up bahan, ukur dengan tangan, proses pemasangan'],
+['Bukti sosial','Banyak banget yang kasih ulasan bagus. Katanya hemat tempat dan bikin rumah kelihatan lebih lega. Aku setuju banget sih.','Screenshot ulasan dan foto dari pembeli'],
+['Bonus','Sekarang lagi ada voucher dan gratis ongkir juga. Harganya jadi murah banget buat barang sebermanfaat ini.','Halaman produk dengan voucher dan gratis ongkir']],
+tmb:[['Cerita','Dulu aku susah banget disuruh minum air putih. Beli botol minum udah berkali-kali, tapi kalau bocor atau minumannya cepat anget, ujung-ujungnya males bawa. Makanya pas ketemu {p} ini, aku langsung penasaran.','Kamu membawa tumbler ke kantor, kampus, atau mobil'],
+['Detail','Tutupnya rapat, nggak seret waktu dibuka, dan gagangnya nyaman dipegang. Muat banget di cup holder mobil, bahkan di tas pun aman. Pilihan warnanya juga lucu-lucu.','Close-up tutup dan gagang, masukkan ke cup holder dan ke tas'],
+['Bukti sosial','Di ulasan banyak yang bilang es batunya awet sampai sore, dan nggak ada yang bocor. Kalau udah banyak yang bilang gitu, aku makin yakin sih.','Screenshot ulasan yang membahas awet dingin dan anti bocor'],
+['Bonus','Sekarang ada voucher dan gratis ongkir. Cocok banget buat hadiah juga, apalagi bisa pilih warna favorit.','Deretan pilihan warna dan layar voucher']],
+tas:[['Cerita','Aku tuh tipe orang yang ribet kalau bawa tas. Sehari bisa bawa dompet, hp, charger, botol minum, sampai skincare. Makanya aku butuh tas yang muat banyak tapi tetap rapi, dan ketemulah sama {p} ini.','Barang bawaan berserakan di meja lalu dimasukkan satu per satu'],
+['Detail','Bahannya tebal dan kuat, resletingnya halus, dan ada kantong dalam buat barang kecil biar nggak tercecer. Talinya juga empuk, jadi nggak bikin pundak pegal.','Close-up resleting, kantong dalam, dan tali; buka-tutup tas'],
+['Bukti sosial','Banyak yang bilang tasnya awet dan tampilannya mahal padahal harganya masuk akal. Foto dari pembeli juga cakep-cakep, bisa kamu lihat di ulasan.','Foto dari pembeli di kolom ulasan'],
+['Bonus','Sekarang lagi ada voucher plus gratis ongkir. Warnanya juga banyak, jadi kamu bisa pilih yang paling cocok sama gayamu.','Pilihan warna dan layar voucher']],
+fash:[['Cerita','Aku tuh suka banget kaos yang simpel tapi enak dipakai. Masalahnya, sering banget beli online, ternyata bahannya panas atau ukurannya nggak pas. Makanya aku ngerti banget rasanya ragu waktu mau checkout.','Tumpukan kaos lama yang jarang dipakai'],
+['Detail','Bahannya lembut dan adem, jahitannya rapi, dan setelah dicuci warnanya nggak gampang pudar. Potongannya juga enak, jatuh di badan tanpa bikin gerah.','Close-up tekstur, jahitan leher dan lengan, tarik kainnya pelan'],
+['Bukti sosial','Banyak yang bilang ukurannya sesuai tabel size, jadi nggak bingung milih. Dan kebanyakan pembeli ambil lebih dari satu warna, tuh.','Ulasan yang membahas ukuran dan foto pembeli'],
+['Bonus','Sekarang lagi ada voucher dan gratis ongkir. Beli dua atau tiga warna sekalian juga makin hemat.','Deretan pilihan warna dan layar voucher']],
+acc:[['Cerita','Dulu aku sering banget panik gara-gara baterai hp tinggal sedikit pas lagi di luar. Atau pas mau bikin konten, malah mati duluan. Dari situ aku sadar, perlengkapan kayak {p} ini tuh penting banget.','Layar hp baterai tinggal 5 persen, kamu terlihat panik'],
+['Detail','Ukurannya ringkas, muat di saku atau tas kecil, dan bodinya terasa kokoh. Port-nya juga lengkap, jadi bisa dipakai buat beberapa perangkat.','Close-up port dan bodi, bandingkan ukuran dengan hp atau telapak tangan'],
+['Bukti sosial','Banyak banget yang puas karena pengisiannya cepat dan nggak cepat panas. Garansinya juga jelas, jadi lebih tenang dipakai tiap hari.','Ulasan pembeli dan keterangan garansi di halaman produk'],
+['Bonus','Sekarang ada voucher dan gratis ongkir juga. Cek dulu kompatibel sama hp atau kameramu ya, biar nggak salah beli.','Halaman produk bagian kompatibilitas dan voucher']]};
+var CLOSE=['Penutup','Oke, segitu dulu dari aku ya. Semoga membantu, dan kalau ada yang mau ditanyain, tulis aja di kolom komentar. Sampai ketemu di video berikutnya!','Kamu melambai ke kamera atau tunjukkan produk sambil tersenyum'];
+T.forEach(function(t){var e=EXT[t.k?t.k[0]:'all']||EXT.all,c=t.s.pop();t.s=t.s.concat(e,[c,CLOSE])});
+function est(t){return Math.round(t.s.map(function(s){return s[1]}).join(' ').replace(/\{p\}/g,'produk').split(/\s+/).length/140*60)}
+function bro(s){return '<span class="br2">'+ic('video')+'B-roll: '+(s[2]||BR[s[0]]||'Close-up produk dari sudut berbeda')+'</span>'}
+var nic='all',cur='pas',rec=null,on=false,fin='',t0=0,tint=null,secs=0,V='home',tgt=60,step=0,tg=0,td=null;
 var ICO={rumah:'home',tmb:'cup',tas:'bag',fash:'shirt',acc:'plug',all:'sparkle'};
 var NI=[['all','Semua','serum wajah'],['rumah','Rumahan','organizer dapur'],['tmb','Tumbler','tumbler'],['tas','Tas','tas selempang'],['fash','Kaos & fashion','kaos polos'],['acc','Aksesoris gadget','powerbank']];
 var NAV=[['home','Beranda','home'],['template','Template','layout'],['teknik','Teknik','target'],['latihan','Latihan','mic'],['riwayat','Riwayat','history'],['panduan','Panduan','info']];
@@ -427,13 +459,13 @@ document.querySelectorAll('[data-v]').forEach(function(b){b.onclick=function(){i
 function nicBar(){var h=NI.map(function(n){return '<span class="chip'+(n[0]===nic?' on':'')+'" data-n="'+n[0]+'">'+ic(ICO[n[0]])+n[1]+'</span>'}).join('');
 document.querySelectorAll('.nicbar').forEach(function(e){e.innerHTML=h});
 document.querySelectorAll('[data-n]').forEach(function(c){c.onclick=function(){nic=c.dataset.n;NI.forEach(function(n){if(n[0]===nic)$('#prod').value=n[2]});if(!vis(tp()))cur=T.filter(vis)[0].id;nicBar();renderTpl();chips();guide()}})}
-function renderTpl(){$('#tgrid').innerHTML=T.filter(vis).map(function(t,i){return '<button class="tc rise" style="--d:'+i*45+'ms" data-t="'+t.id+'"><span class="ib">'+ic(ICO[t.k?t.k[0]:'all'])+'</span><h3>'+t.n+'</h3><p>'+t.d+'</p><span class="more">'+t.s.length+' bagian, lihat naskah '+ic('arrow')+'</span></button>'}).join('');
+function renderTpl(){$('#tgrid').innerHTML=T.filter(vis).map(function(t,i){return '<button class="tc rise" style="--d:'+i*45+'ms" data-t="'+t.id+'"><span class="ib">'+ic(ICO[t.k?t.k[0]:'all'])+'</span><h3>'+t.n+'</h3><p>'+t.d+'</p><span class="more">'+'≈ '+est(t)+' detik · '+t.s.length+' bagian '+ic('arrow')+'</span></button>'}).join('');
 document.querySelectorAll('.tc').forEach(function(b){b.onclick=function(){openT(b.dataset.t)}})}
 function closeT(){$('#tdet').classList.add('hide');$('#tlist').classList.remove('hide')}
 function openT(id){var t=T.filter(function(x){return x.id===id})[0];
 $('#tlist').classList.add('hide');$('#tdet').classList.remove('hide');
-$('#tdet').innerHTML='<button class="btn" id="tbk">'+ic('back')+'Semua template</button><h1 style="margin-top:16px">'+t.n+'</h1><p class="mu">'+t.d+'</p>'+
-t.s.map(function(s,i){return '<div class="sr rise" style="--d:'+i*70+'ms"><span class="n">'+(i+1)+'</span><div><b>'+s[0]+'</b><p>'+s[1].replace(/\{p\}/g,'[nama produk]')+'</p></div></div>'}).join('')+
+$('#tdet').innerHTML='<button class="btn" id="tbk">'+ic('back')+'Semua template</button><h1 style="margin-top:16px">'+t.n+'</h1><p class="mu">'+t.d+' Durasi sekitar '+est(t)+' detik jika dibaca santai, belum termasuk jeda.</p>'+
+t.s.map(function(s,i){return '<div class="sr rise" style="--d:'+i*70+'ms"><span class="n">'+(i+1)+'</span><div><b>'+s[0]+'</b><p>'+s[1].replace(/\{p\}/g,'[nama produk]')+'</p>'+bro(s)+'</div></div>'}).join('')+
 '<p class="mu" style="margin-top:14px;font-size:.88rem">Naskah ini hanya contoh. Pahami urutannya (hook, isi, CTA), lalu ucapkan dengan kata-katamu sendiri agar terdengar natural.</p><div class="row" style="margin-top:18px"><button class="btn p" id="tuse">Latihan dengan template ini '+ic('arrow')+'</button></div>';
 $('#tbk').onclick=closeT;$('#tuse').onclick=function(){cur=t.id;chips();guide();show('latihan');go(1)};window.scrollTo(0,0)}
 function renderTek(){$('#tkc').innerHTML=TK.map(function(g,i){return '<span class="chip'+(i===tg?' on':'')+'" data-g="'+i+'">'+g[0]+'</span>'}).join('');
@@ -441,12 +473,12 @@ $('#tkg').innerHTML=TK[tg][1].map(function(x,i){return '<div class="sr rise" sty
 document.querySelectorAll('[data-g]').forEach(function(c){c.onclick=function(){tg=+c.dataset.g;renderTek()}})}
 function chips(){$('#latChips').innerHTML=T.filter(vis).map(function(t){return '<span class="chip'+(t.id===cur?' on':'')+'" data-c="'+t.id+'">'+t.n+'</span>'}).join('');
 document.querySelectorAll('[data-c]').forEach(function(c){c.onclick=function(){cur=c.dataset.c;chips();guide()}})}
-function guide(){var t=tp(),h=$('#hideG').checked;$('#gt').textContent=t.n;$('#guide').classList.toggle('hide',h);$('#ghid').classList.toggle('hide',!h);
+function guide(){var t=tp(),h=$('#hideG').checked;$('#gt').textContent=t.n+' (sekitar '+est(t)+' detik)';$('#guide').classList.toggle('hide',h);$('#ghid').classList.toggle('hide',!h);
 $('#rk').textContent='Kata kunci template: '+t.keys.join(', ');
-$('#guide').innerHTML=t.s.map(function(s,i){return '<div class="sr rise" style="--d:'+i*60+'ms"><span class="n">'+(i+1)+'</span><div><b>'+s[0]+'</b><p>'+P(s[1])+'</p></div></div>'}).join('')}
+$('#guide').innerHTML=t.s.map(function(s,i){return '<div class="sr rise" style="--d:'+i*60+'ms"><span class="n">'+(i+1)+'</span><div><b>'+s[0]+'</b><p>'+P(s[1])+'</p>'+bro(s)+'</div></div>'}).join('')}
 function tdisp(){return fmt(secs)+(tgt?' / '+fmt(tgt):'')}
 function tick(){secs=Math.round((Date.now()-t0)/1000);$('#tm').textContent=tdisp();$('#pbi').style.width=(tgt?Math.min(100,secs/tgt*100):0)+'%';if(tgt&&secs>=tgt&&on){stop();$('#msg').textContent='Waktu habis. Klik Periksa & koreksi untuk melihat hasilmu.'}}
-function tgtBar(){var o=[[0,'Bebas'],[15,'15 dtk'],[30,'30 dtk'],[45,'45 dtk'],[60,'60 dtk']];
+function tgtBar(){var o=[[0,'Bebas'],[30,'30 dtk'],[60,'1 menit'],[90,'90 dtk'],[120,'2 menit']];
 $('#tgc').innerHTML=o.map(function(x){return '<span class="chip'+(x[0]===tgt?' on':'')+'" data-tg="'+x[0]+'">'+(x[0]?ic('history'):'')+x[1]+'</span>'}).join('');
 document.querySelectorAll('[data-tg]').forEach(function(c){c.onclick=function(){tgt=+c.dataset.tg;tgtBar();$('#tm').textContent=tdisp();$('#pbi').style.width=tgt?Math.min(100,secs/tgt*100)+'%':'0'}})}
 var mr=null,ch=[],ms=null,aurl=null;
@@ -509,8 +541,10 @@ if(rep.length)fb.push(['warn','Kata berulang','Terdengar mengulang: '+rep.slice(
 if(wpm){var ps=(wpm>=130&&wpm<=170)?15:(wpm>=110&&wpm<=190)?9:4;sc+=ps;
 fb.push([ps===15?'ok':'warn','Tempo '+wpm+' kata/menit',wpm<130?'Terlalu lambat, tambah energi dan percepat sedikit (target 130–170).':wpm>170?'Terlalu cepat, beri jeda di poin penting agar mudah dicerna.':'Tempo ideal.'])}
 else{sc+=10;fb.push(['warn','Tempo tidak dihitung','Rekam dengan mikrofon agar kecepatan bicara bisa diukur.'])}
-if(secs>60)fb.push(['warn','Durasi kepanjangan','VT affiliate yang lagi jalan biasanya 15–45 detik. Padatkan dan buang bagian yang tidak perlu.']);
+if(secs>150)fb.push(['warn','Durasi kepanjangan','Lebih dari 2,5 menit biasanya terlalu panjang untuk VT. Padatkan bagian yang tidak perlu.']);
 if(tgt&&secs>5){if(secs<tgt*.6)fb.push(['warn','Belum mencapai target '+tgt+' detik','Kamu selesai di '+secs+' detik. Tambahkan bukti atau detail produk agar isinya lebih padat.']);else fb.push(['ok','Sesuai target waktu','Kamu muat dalam '+tgt+' detik, ritme yang pas untuk VT.'])}
+var kk=['anda','silakan','merupakan','terdapat','apabila','sehingga'],kf=kk.filter(function(k){return padded.indexOf(' '+k+' ')>-1});
+if(kf.length)fb.push(['warn','Bahasa terdengar kaku','Kata '+kf.map(function(k){return '<mark>'+k+'</mark>'}).join(', ')+' terdengar formal. Ganti dengan “kamu”, “kalau”, “jadi”, atau “ada” supaya lebih natural.']);
 if(avg>20)fb.push(['warn','Kalimat terlalu panjang','Rata-rata '+avg+' kata per kalimat. Pecah jadi kalimat pendek, maksimal sekitar 15 kata.']);
 sc=Math.min(100,sc);
 var g=sc>=85?'Luar biasa! Siap tayang':sc>=70?'Bagus, tinggal dipoles':sc>=50?'Lumayan, terus latihan':'Masih perlu banyak latihan, jangan menyerah';
@@ -530,7 +564,7 @@ $('#n0').onclick=function(){go(1)};$('#b1').onclick=function(){go(0)};$('#n1').o
 $('#b2').onclick=function(){go(1)};$('#b3').onclick=function(){go(2)};$('#b4').onclick=function(){go(0)};
 $('#prod').oninput=guide;$('#hideG').onchange=guide;
 window.addEventListener('hashchange',function(){var h=location.hash.slice(1);if(h&&h!==V)show(h)});
-navs();nicBar();renderTpl();renderTek();chips();guide();tgtBar();go(0);
+navs();nicBar();renderTpl();renderTek();chips();guide();tgtBar();$('#tm').textContent=tdisp();go(0);
 function isDark(){var t=document.documentElement.getAttribute('data-theme');return t?t==='dark':window.matchMedia('(prefers-color-scheme:dark)').matches}
 function tIcon(){$('#tt').innerHTML=ic(isDark()?'sun':'moon')}
 try{var sv=localStorage.getItem('lat_th');if(sv)document.documentElement.setAttribute('data-theme',sv)}catch(e){}
